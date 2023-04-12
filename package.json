@@ -1,0 +1,14 @@
+{
+  "name": "password-generator",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "genpass": "src/index.js"
+  },
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "yargs": "^17.7.1"
+  }
+}
