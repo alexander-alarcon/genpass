@@ -14,7 +14,7 @@ import yargs from 'yargs';
 function generatePassword(length, copyToClipboard) {
   const randomBytes = crypto.randomBytes(256);
   const password = randomBytes
-    .toString('base64')
+    .toString('base64url')
     .replace(/[+/=]/g, '')
     .slice(0, length);
 
